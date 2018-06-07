@@ -3,7 +3,7 @@
 	$username = "root";
 	$password = "";
 	try {
-		$conn = new PDO("mysql:host=$servername;dbname=bdgranatapas", $username, $password);
+		$conn = new PDO("mysql:host=$servername;dbname=myDB", $username, $password);
 		$resultJson = array();
 		// set the PDO error mode to exception
 		$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
